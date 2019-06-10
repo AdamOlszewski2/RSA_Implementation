@@ -10,6 +10,10 @@ namespace RSA_Implementation
     {
         static void Main(string[] args)
         {
+            RSA_Class rs = new RSA_Class(11, 13, 23, 47);
+            //Console.WriteLine(rs.GCDRecursive(540, 7));
+            rs.encrypt();
+            rs.decrypt();
         }
     }
 }
